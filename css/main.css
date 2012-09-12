@@ -1,0 +1,45 @@
+body{
+	background-color: rgb(155, 187, 89);
+}
+.container{
+	background-color: white;
+	width: 915px;
+	margin: 0 auto;
+}
+.nav-bar{
+	background-color: #88C983;
+	text-align: center;
+}
+.nav-bar ul li{
+	display: inline;
+	padding: 2px;
+}
+.nav-bar a{
+	text-decoration: none;
+	color: white;
+}
+.nav-bar ul{
+	margin: 0px;
+	padding: 0px;
+}
+.logo{
+margin: 0 auto; 
+padding: 15px;
+}
+.content{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 39px;
+	padding-bottom: 100px;
+	letter-spacing: 2px;
+	color: gray;
+}
+.home-content{
+	font-size: 27px;
+	letter-spacing: 2px;
+	color: #0000B1;
+}
+.copyright{
+	color: white; 
+	font-size: 10px;
+}
