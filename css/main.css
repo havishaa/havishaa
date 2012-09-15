@@ -1,5 +1,12 @@
+body, div, p, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
 body {
-	background-color: rgb(155, 187, 89);
+	background-image: url('/images/texture.png');
+	background-color: white;
+	font-family: arial;
 }
 .container {
 	background-color: white;
@@ -7,16 +14,22 @@ body {
 	margin: 0 auto;
 }
 .nav-bar {
-	background-color: #88C983;
-	text-align: center;
+	background-image: url('/images/top_bar.png');
+	background-repeat: repeat-x;
+	text-align: left;
+	background-size: 2px 43px;
+	padding: 10px;
 }
 .nav-bar ul li {
 	display: inline;
-	padding: 2px;
+	padding: 3px 22px;
 }
 .nav-bar a {
 	text-decoration: none;
 	color: white;
+}
+.nav-bar li:hover {
+	background: black;
 }
 .nav-bar ul {
 	margin: 0px;
@@ -26,26 +39,62 @@ body {
 	margin: 0 auto;
 	padding: 15px;
 }
+.logo img {
+	max-width: 130px;
+}
+
+.slide-image img {
+	max-width: 484px;
+}
+
+.slide-image {
+	text-align: right;
+	padding-right: 14px;
+	padding-bottom: 11px;
+}
+
 .content {
-	text-align: center;
 	font-size: 15px;
-	margin-top: 39px;
+	margin-top: 20px;
 	padding-bottom: 100px;
-	letter-spacing: 2px;
 	color: gray;
 }
 .home-content {
-	font-size: 16px;
+	font-size: 15px;
 	letter-spacing: 0px;
-	color: #0000B1;
-	font-family: monospace;
+	color: gray;
 }
+
 .copyright {
 	color: white;
 	font-size: 10px;
 }
-.main-content {
-	text-align: center;
-	width: 437px;
-	margin: 0 auto;
+.main-content p {
+	margin: 27px 0px;
 }
+.main-content, .why-us-content, .serve-content, .what-we-do-content, .mission-content {
+	margin: 0 auto;
+	width: 889px;
+}
+.about-us-content, .mission-content{
+	height: 400px;
+}
+.content h1{
+	font-size: 19px;
+	text-decoration: underline;
+}
+.content h2{
+	font-size: 16px;
+}
+.why-us-content ul{
+	padding-left: 41px;
+}
+.why-us-content p, .mission-content p{
+	margin: 19px 0px;
+}
+
+.qualiy-belief-list p, .qualiy-obj-list p{
+	font-weight: bold;
+	font-size: 17px;
+}
+
