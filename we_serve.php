@@ -4,13 +4,13 @@
 		<h1>Domains we serve</h1>
 
 		<h2>Telecom Support</h2>
-		<p>~some info~</p> 
+		<p></p> 
 
 		<h2>Software Support</h2>
-		<p>~SOME INFO~ </p>
+		<p></p>
 
 		<h2>Technical Support</h2>
-		<p>~some info~</p> 
+		<p></p> 
 	</div>
 </div>
 <?php include("includes/footer.php")?> 

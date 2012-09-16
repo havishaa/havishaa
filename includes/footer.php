@@ -1,6 +1,6 @@
 <div id="footer">
 						<div class="copyright">
-							� 2012 Havisha
+						&copy; 2012 Havisha
 						</div>
 			
 		</div>

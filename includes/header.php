@@ -2,14 +2,20 @@
 	<head>
 		<title>Havishaa</title>
 		<link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="javascripts/jquery-1.8.1.min.js"></script>
+		<script type="text/javascript" src="javascripts/jquery-ui-1.8.23.custom.min.js"></script>
 		</link>
 	</head>
 	<body>
 		<div class="container">
-			<div class="logo"><img src="images/new_logo.png"></img>
-			</div>
-			<div class="slide-image">
-				<img src="images/about_us3.png" />
+			<div class="logo-slide">
+				<div class="logo">
+					<img src="images/havishaa-logo.png"></img>
+					<span class="caption">Reflecting your Dreams</span>
+				</div>
+				<div class="slide-image">
+					<img src="images/about_us3.png" />
+				</div>
 			</div>
 			<div class="nav-bar">
 				<ul>
@@ -35,7 +41,7 @@
 						<a href="#">Careers</a>
 					</li>
 					<li>
-						<a href="#">Contact Us</a>
+						<a href="contact.php">Contact Us</a>
 					</li>
 					<ul>
 			</div>
